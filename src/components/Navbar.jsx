@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
 import Logo from "../../public/logo.png"
 import { HiMenu } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
  const [isOpen, setIsOpen] = useState(false)
 
  return (
-   <nav className="flex items-center justify-between flex-wrap bg-white p-2 sticky top-0">
+   <nav className="flex items-center justify-between flex-wrap bg-white p-2 sticky top-0 shadow-lg text-defaultColor">
      <div className="flex items-center flex-shrink-0 lg:mr-72">
-      <img src={Logo} alt="logo" className='w-28 lg:w-40'/>
+      <Link to="/">
+        <img src={Logo} alt="logo" className='w-28 lg:w-40'/>
+      </Link>
      </div>
      <div className="block lg:hidden">
        <button
@@ -22,18 +25,18 @@ function Navbar() {
        className={`w-full block lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
      >
        <div className="font-poppins text-xl lg:flex-grow lg:justify-end">
-         <a href="Menu" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
+         <Link to="/Menu" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
           Menu
-         </a>
-         <a href="About Us" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
+         </Link>
+         <Link to="/About" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
           About Us
-         </a>
-         <a href="Our Specialities" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
+         </Link>
+         <Link to="/Specialities" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
           Our Specialities
-         </a>
-         <a href="Contact Us" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
+         </Link>
+         <Link to="/Contact" className="hover:text-orange-500 hover:text-2xl block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-8">
           Contact Us
-         </a>
+         </Link>
        </div>
      </div>
    </nav>

@@ -9,6 +9,14 @@ export default {
       fontFamily: {
         'poppins': ['poppins', 'sans-serif'],
       },
+
+      colors: {
+        defaultColor: "#773820"
+      },
+
+      screens: {
+        'sm': {'min': '320px', 'max': '480px'},
+      }
     },
   },
   plugins: [],
