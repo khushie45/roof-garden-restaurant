@@ -35,7 +35,6 @@ function SamplePrevArrow(props) {
   );
 }
 
-
 function Specialities() {
   var settings = {
     dots: true,
