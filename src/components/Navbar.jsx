@@ -8,7 +8,7 @@ function Navbar() {
 
  return (
    <nav className="flex items-center justify-between flex-wrap bg-white p-2 sticky top-0 shadow-lg text-defaultColor">
-     <div className="flex items-center flex-shrink-0 lg:mr-72">
+     <div className="flex items-center flex-shrink-0">
       <Link to="/">
         <img src={Logo} alt="logo" className='w-28 lg:w-40'/>
       </Link>

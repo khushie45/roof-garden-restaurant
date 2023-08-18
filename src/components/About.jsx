@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div className='m-14 sm:m-6'>
-        <h1 className='font-poppins text-5xl text-defaultColor hover:text-orange-500'>About Us</h1>
+        <h1 className='font-poppins text-5xl text-defaultColor hover:text-orange-500 sm:text-3xl'>About Us</h1>
         <br />
         <p className='font-poppins text-2xl leading-10 text-defaultColor sm:text-lg'>
         Welcome to <strong>Roof Garden Restaurant</strong> in the heart of Anand, Gujarat! 
