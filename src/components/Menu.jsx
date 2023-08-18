@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, IconButton } from "@material-tailwind/react"
+import { Carousel } from "@material-tailwind/react"
 import Page1 from "../../public/Menu/Page1.jpg"
 import Page2 from "../../public/Menu/Page2.jpg"
 import Page3 from "../../public/Menu/Page3.jpg"
@@ -29,7 +29,7 @@ function Menu() {
       Experience a culinary journey like no other – explore the delectable offerings on our menu that bring together flavors from around the world. From mouthwatering entrees to tantalizing desserts, our carefully crafted dishes promise a symphony of taste and innovation. Embark on a gastronomic adventure and discover the artistry that awaits. Check out our menu and treat your senses to a feast of exquisite flavors and culinary delight.</p>
 
       <div className='flex items-center justify-center my-10'>
-        <Carousel transition={{ duration: 2 }} className='w-1/2 z-40 sm:w-5/6'>
+        <Carousel transition={{ duration: 1 }} className='w-1/2 z-40 sm:w-5/6'>
           <img src={Page1} alt="image 1" className="h-full w-full" />
           <img src={Page2} alt="image 2" className="h-full w-full" />
           <img src={Page3} alt="image 3" className="h-full w-full" />
@@ -59,10 +59,6 @@ function Menu() {
         </object>
       </div> */}
     </div>
-	);
+	)
 }
-
 export default Menu
-
-
-
