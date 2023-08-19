@@ -10,7 +10,6 @@ Welcome to the Roof Garden Restaurant website! This project showcases a modern a
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -48,7 +47,3 @@ The Roof Garden Restaurant website is built using Vite, React.js, Tailwind CSS, 
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
