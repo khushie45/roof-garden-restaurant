@@ -77,13 +77,13 @@ function Home() {
         <div className='m-6 p-5 px-48 bg-white sm:px-5'>
           <ReactPlayer url={V1} controls width="100%"/>
         </div>
-        <div className='p-5 px-48 bg-white sm:px-5'>
+        <div className='m-6 p-5 px-48 bg-white sm:px-5'>
           <ReactPlayer url={V2} controls width="100%"/>
         </div>
         <div className='m-6 p-5 px-48 bg-white sm:px-5'>
           <ReactPlayer url={V3} controls width="100%"/>
         </div>
-        <div className='p-5 px-48 bg-white sm:px-5'>
+        <div className='m-6 p-5 px-48 bg-white sm:px-5'>
           <ReactPlayer url={V4} controls width="100%"/>
         </div>
         <div className='m-6 p-5 px-48 bg-white sm:px-5'>
