@@ -29,6 +29,7 @@ The Roof Garden Restaurant website is built using Vite, React.js, Tailwind CSS, 
 - [Vite](https://vitejs.dev/): A fast development build tool for modern web applications.
 - [React.js](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start): A library for adding routing to React applications.
 - [React Slick](https://react-slick.neostack.com/): A carousel component for React-based projects.
 - [React Player](https://www.npmjs.com/package/react-player): A video player component for React applications.
 - [React Icons](https://react-icons.github.io/react-icons/): A library of icons for use in React applications.
